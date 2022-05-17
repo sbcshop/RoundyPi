@@ -20,18 +20,14 @@ storage.mount(vfs, "/sd")
 # Release any resources currently in use for the displays
 displayio.release_displays()
 
-board_type = os.uname().machine
-if 'Pico' in board_type:
-    # Raspberry Pi Pico pinout, one possibility, at "southwest" of board
-    tft_clk = board.GP10 # must be a SPI CLK
-    tft_mosi= board.GP11 # must be a SPI TX
-    tft_rst = board.GP12
-    tft_dc  = board.GP8
-    tft_cs  = board.GP9
-    tft_bl  = board.GP13
-    spi = busio.SPI(clock=tft_clk, MOSI=tft_mosi)
-else:
-    print("ERROR: Unknown board!")
+tft_clk = board.GP10 # must be a SPI CLK
+tft_mosi= board.GP11 # must be a SPI TX
+tft_rst = board.GP12
+tft_dc  = board.GP8
+tft_cs  = board.GP9
+tft_bl  = board.GP13
+spi = busio.SPI(clock=tft_clk, MOSI=tft_mosi)
+
     
 # Make the displayio SPI bus and the GC9A01 display
 display_bus = displayio.FourWire(spi, command=tft_dc, chip_select=tft_cs, reset=tft_rst)
