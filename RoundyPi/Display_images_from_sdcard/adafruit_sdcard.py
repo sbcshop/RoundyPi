@@ -5,30 +5,6 @@
 #
 # SPDX-License-Identifier: MIT
 
-"""
-`adafruit_sdcard` - SD card over SPI driver
-====================================================
-CircuitPython driver for SD cards using SPI bus.
-Requires an SPI bus and a CS pin.  Provides readblocks and writeblocks
-methods so the device can be mounted as a filesystem.
-* Author(s): Scott Shawcroft
-Implementation Notes
---------------------
-**Hardware:**
-* Adafruit `MicroSD card breakout board+
-  <https://www.adafruit.com/product/254>`_ (Product ID: 254)
-* Adafruit `Assembled Data Logging shield for Arduino
-  <https://www.adafruit.com/product/1141>`_ (Product ID: 1141)
-* Adafruit `Feather M0 Adalogger
-  <https://www.adafruit.com/product/2796>`_ (Product ID: 2796)
-* Adalogger `FeatherWing - RTC + SD Add-on For All Feather Boards
-  <https://www.adafruit.com/product/2922>`_ (Product ID: 2922)
-**Software and Dependencies:**
-* Adafruit CircuitPython firmware for the ESP8622 and M0-based boards:
-  https://github.com/adafruit/circuitpython/releases
-* Adafruit's Bus Device library: https://github.com/adafruit/Adafruit_CircuitPython_BusDevice
-"""
-
 import time
 from micropython import const
 from adafruit_bus_device import spi_device
