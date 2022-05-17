@@ -22,7 +22,7 @@ In this device we use Micropython and Circuit python(Adafruit Industries) both
     You can also display your custom images, for this you need to go "images" folder as shown in below,and save the BMP images of 240x240 
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img16.png" /> 
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img17.png" /> 
-    You can online convert any image to BMP image (the size must be 250x250), i a websie below(there are various website)
+    You can online convert any image to BMP image (the size must be 240x240), i a websie below(there are various website)
     https://image.online-convert.com/convert-to-bmp
     
     Finally, you need to run this file **picture_display.py**
@@ -33,6 +33,8 @@ In this device we use Micropython and Circuit python(Adafruit Industries) both
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" /> 
     When you properly insert the circuitpython then you see a new device that looks like the below image:-
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img11.png" />  
+    Now, follow all the process of **Display Images**, the extra thing you need to do is copy the adafruit_sdcard.py file and paste in this directory, and insert the       BMP images (240x240) in sd card. 
+  
   
   * **Memory card reader** -> (use micropython) for round LCD you need to drag and drop the round LCD firmware "firmware.uf2". for this first you need to press the boot button     then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named "RPI-RP2" drag this file "firmware.uf2" to this device   as shown in figure 
   <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" /> 
