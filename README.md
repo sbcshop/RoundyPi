@@ -27,7 +27,7 @@ In this device we use Micropython and Circuit python(Adafruit Industries) both
     
     Finally, you need to run this file **picture_display.py**
     
-  * **Display Images From SD Card** -> For display images, I use CircuitPython because it is very easy, it is developed by adafruit industries, First of all, we need to insert the circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2"). for this first you need to press the boot button then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named "RPI-RP2" drag this file 
+  * **Display Images From SD Card** -> For display images, I use CircuitPython because it is very easy, it is developed by adafruit industries, First of all, we need to insert the circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2"). for this first you need to press the boot button then connect the USB, don't release the button until you connect the USB to the laptop. then you see a new device named "RPI-RP2" drag this file 
     "adafruit-circuitpython- raspberry_pi_pico-en_US-7.1.1.uf2" to this device as shown in figure:
     this is the official website, or yoy can download from here https://circuitpython.org/board/raspberry_pi_pico/
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" /> 
