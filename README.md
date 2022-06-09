@@ -7,7 +7,7 @@
 
    https://thonny.org/
    
-   
+   <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img.JPG" />
    
 
 See there is a folder name RoundyPi, inside this folder, there are various applications:-
