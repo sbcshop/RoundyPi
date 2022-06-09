@@ -15,7 +15,7 @@
         <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" />
         <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img1.JPG" />
         
-     After this go to run->select interpreter,choose device or port
+     After this go to run->select interpreter,choose device and port
         <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img2.png" />
         <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img3.png" />
         <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img4.png" />
@@ -27,20 +27,16 @@
      When you properly insert the circuitpython then you see a new device that looks like the below image:-
      <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img11.png" />
      
-      After this go to run->select interpreter,choose device or port
+      After this go to run->select interpreter,choose device and port
          <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img18.png" />
          <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img19.png" />
          <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img20.png" />
     
-        
        
-
-   
 See there is a folder name RoundyPi, inside this folder, there are various applications:-
 In this device we use Micropython and Circuit python(Adafruit Industries) both 
 
   * **Connect Air Monitoring Sensor (use breakout)** -> (Use Micropython) We add the four GP pins for Input/Output devices(GP0,GP1,GP2,GP3).For example, We connect Air monitoring breakout,         save this file "pmsa003.py" in the pico, this is the library of the air monitor sensors. and for round LCD you need to drag and drop the round LCD firmware "firmware.uf2".       for this first you need to press the boot button then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named         "RPI-RP2" drag this file "firmware.uf2" to this device as shown in figure 
-    <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" />
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img6.png" />
 
   * **Display Images** -> For display images, I use CircuitPython because it is very easy, it is developed by adafruit industries, First of all, we need to insert the circuit         python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2"). for this first you need to press the boot button then connect      the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named "RPI-RP2" drag this file 
