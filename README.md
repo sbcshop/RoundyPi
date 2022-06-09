@@ -4,7 +4,10 @@
 
 ## Steps To Setup The RoundyPi
 1. Download Thonny IDE 
+
    https://thonny.org/
+   
+   
    
 
 See there is a folder name RoundyPi, inside this folder, there are various applications:-
