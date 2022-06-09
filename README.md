@@ -57,7 +57,7 @@ In this device we use Micropython and Circuit python(Adafruit Industries) both
     Now, follow all the process of **Display Images**,don't put images to this directory, we use sd card to this. the extra thing you need to do is copy the               adafruit_sdcard.py file and paste in this directory, and insert the BMP images (240x240) in sd card. 
   
   
-  * **Memory card reader** -> (use micropython) 
+  * **Memory card reader** -> (Install micropython) 
   Save the library of SD Card in the RoundyPi(file name "sdcard.py")
   Put SD Card in the RoundyPi and run the code(main.py), code read and write the values to the SD Card
   <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img8.png" /> 
