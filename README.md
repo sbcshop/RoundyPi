@@ -36,7 +36,7 @@
 See there is a folder name RoundyPi, inside this folder, there are various applications:-
 In this device we use Micropython and Circuit python(Adafruit Industries) both 
 
-  * **Connect Air Monitoring Sensor (use breakout)** -> (Use Micropython) We add the four GP pins for Input/Output devices(GP0,GP1,GP2,GP3).For example, We connect Air     monitoring breakout,      save this file "pmsa003.py" in the pico, this is the library of the air monitor sensors.
+  * **Connect Air Monitoring Sensor (use breakout)** -> (Insert Micropython) We add the four GP pins for Input/Output devices(GP0,GP1,GP2,GP3).For example, We connect Air     monitoring breakout,      save this file "pmsa003.py" in the pico, this is the library of the air monitor sensors.
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img6.png" />
 
   * **Display Images** -> For display images, I use CircuitPython because it is very easy, it is developed by adafruit industries, First of all, we need to insert the       circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2").   
