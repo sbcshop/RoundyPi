@@ -9,10 +9,12 @@
    
    <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img.JPG" />
    
-2. In RoundyPi we use bith micropython and circuitpython 
+2. In RoundyPi we use both micropython and circuitpython 
    * Install Micropython in Roundypi
-       first you need to press the boot button then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named         "RPI-RP2" drag this file "firmware.uf2" to this device as shown in figure
-       <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" />
+       first you need to press the boot button then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named         "RPI-RP2" drag this file "firmware.uf2" to this device as shown in figure(micropython firmware is inside "Connect_Air_Monitoring_Sensor" folder)
+        <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" />
+        <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img6.png" />
+
 
 See there is a folder name RoundyPi, inside this folder, there are various applications:-
 In this device we use Micropython and Circuit python(Adafruit Industries) both 
