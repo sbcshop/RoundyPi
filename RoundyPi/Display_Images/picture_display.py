@@ -6,10 +6,6 @@
 # Tested on QTPy (SAMD21), QTPy RP2040, and Raspberry Pi Pico (RP2040)
 # running CircuitPython 7.
 #
-# You'll need to install 'gc9a01' package.
-# Easiest way to do this is from Terminal:
-#  circup install gc9a01
-#
 
 import time
 import board
